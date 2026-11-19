@@ -105,6 +105,48 @@ body.oncover header.top,body.oncover nav.tabs{display:none}body.oncover main{pad
 .clsf{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 16px}.clsf .nb.on{background:#101828;color:#fff;border-color:#101828}
 .cwh{font:600 13px var(--f-body,inherit);margin:6px 0 12px;display:flex;gap:8px;align-items:center}.cv-wall.mha{grid-template-columns:repeat(6,minmax(0,1fr))}
 @media (max-width:1000px){.cv-wall.mha{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+.hx{--o:#f26a21;--ink2:#0b1220}
+.hx-hero{background:#000;color:#fff;position:relative;overflow:hidden}.hx-hero:before{content:"";position:absolute;right:-8%;top:-30%;width:620px;height:620px;border-radius:50%;background:radial-gradient(circle,rgba(242,106,33,.28),rgba(242,106,33,0) 65%);pointer-events:none}
+.hx-in{max-width:1320px;margin:0 auto;padding:26px max(16px,5vw) 44px;position:relative}
+.hx-top{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:34px}.hx-top img.m{height:58px}.hx-top img.h{height:92px}
+.hx-eb{font:600 12px var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:#ffb68a;margin:0 0 12px}
+.hx-hero h1{font:800 clamp(40px,6.4vw,84px)/1.02 var(--f-display);margin:0 0 16px;letter-spacing:-.02em}.hx-hero h1 em{font-style:normal;color:var(--o)}
+.hx-lead{font-size:clamp(16px,1.5vw,20px);line-height:1.55;color:#d0d5dd;max-width:62ch;margin:0 0 26px}
+.hx-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:end}
+.hx-pace{background:#101828;border:1px solid #263248;border-radius:16px;padding:20px 22px}
+.hx-pace h3{margin:0 0 12px;font:700 13px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:#98a2b3}
+.hx-cur{display:flex;align-items:center;gap:10px;margin-bottom:14px;font-size:14px;color:#d0d5dd}.hx-cur input{width:84px;background:#0b1220;border:1px solid #344054;color:#fff;border-radius:8px;padding:7px 10px;font:700 18px var(--f-display)}
+.hx-bar{height:12px;border-radius:99px;background:#263248;overflow:hidden;margin:6px 0 4px}.hx-bar i{display:block;height:100%;width:30%;background:linear-gradient(90deg,#f26a21,#ffb347);border-radius:99px;transition:width .5s}
+.hx-bl{display:flex;justify-content:space-between;font:600 11px var(--f-mono);color:#98a2b3;margin-bottom:14px}
+.hx-m{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.hx-m div{background:#0b1220;border-radius:10px;padding:10px 8px;text-align:center}.hx-m b{display:block;font:800 24px var(--f-display);color:#fff}.hx-m span{font-size:11.5px;color:#98a2b3;line-height:1.2;display:block}
+.hx-note{font-size:11.5px;color:#98a2b3;margin:10px 0 0}
+.hx-sec{max-width:1320px;margin:0 auto;padding:52px max(16px,5vw) 0}.hx-sec h2{font:800 clamp(26px,3vw,38px)/1.1 var(--f-display);margin:0 0 6px;letter-spacing:-.01em}.hx-sec>p.s{color:var(--muted);margin:0 0 24px;max-width:70ch;font-size:16px}
+.hx-steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;counter-reset:s}
+.hx-st{position:relative;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 16px 16px;text-align:left;font:inherit;color:var(--ink);cursor:pointer;transition:transform .2s,box-shadow .2s,border-color .2s}.hx-st:hover{transform:translateY(-3px);border-color:var(--o);box-shadow:0 10px 28px rgba(242,106,33,.16)}
+.hx-st .n{display:inline-flex;width:34px;height:34px;border-radius:50%;background:#000;color:#fff;align-items:center;justify-content:center;font:800 15px var(--f-display);margin-bottom:10px}.hx-st:first-child .n{background:var(--o)}
+.hx-st b{display:block;font:800 18px var(--f-display);margin-bottom:6px}.hx-st span{display:block;font-size:13.5px;line-height:1.5;color:var(--muted)}
+.hx-rule{margin-top:16px;background:#fff3ec;border-left:4px solid var(--o);border-radius:0;padding:12px 16px;font:700 15px var(--f-body);color:#7a2e0a}
+.hx-focus{background:#0b1220;color:#fff;border-radius:22px;padding:34px clamp(20px,4vw,48px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:32px}
+.hx-focus h2{color:#fff}.hx-big{font:800 clamp(24px,2.6vw,34px)/1.2 var(--f-display);margin:0 0 12px}.hx-big em{font-style:normal;color:var(--o)}.hx-focus p{color:#d0d5dd;line-height:1.55;margin:0}
+.hx-do{list-style:none;margin:0;padding:0;display:grid;gap:10px}.hx-do li{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;font-size:14.5px;line-height:1.45;color:#e4e7ec}.hx-do li:before{content:counter(d);counter-increment:d;width:26px;height:26px;border-radius:50%;background:var(--o);color:#fff;display:flex;align-items:center;justify-content:center;font:800 13px var(--f-display)}.hx-do{counter-reset:d}.hx-do b{color:#fff}
+.hx-dont{margin-top:16px;padding-top:14px;border-top:1px solid #263248;font-size:13px;color:#98a2b3;line-height:1.55}.hx-dont b{color:#ffb68a}
+.hx-lab{display:flex;align-items:center;gap:12px;margin:0 0 16px}.hx-lab h3{margin:0;font:800 22px var(--f-display)}.hx-lab small{color:var(--muted);font-size:14px}
+.hx-cards{display:grid;gap:16px;margin-bottom:34px}.hx-cards.mha{grid-template-columns:repeat(3,minmax(0,1fr))}.hx-cards.gha{grid-template-columns:repeat(4,minmax(0,1fr))}
+.hx-c{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;text-align:left;font:inherit;color:var(--ink);cursor:pointer;padding:0;opacity:0;transform:translateY(14px);animation:hxin .55s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i)*90ms);transition:box-shadow .2s,border-color .2s,transform .2s}
+.hx-c:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(16,24,40,.14);border-color:var(--o)}
+.hx-c .lw{display:flex;align-items:center;justify-content:center;background:#fff;border-bottom:1px solid var(--line)}.hx-cards.mha .lw{height:132px}.hx-cards.gha .lw{height:96px}
+.hx-c .lw .lgw{max-width:78%}
+.hx-c .bd{padding:14px 16px 16px}.hx-c .nm{display:block;font:800 17px var(--f-display);margin-bottom:2px}.hx-c .sb{display:block;font-size:12.5px;color:var(--muted);margin-bottom:10px;line-height:1.35}
+.hx-c .st{display:flex;gap:8px;align-items:center;font:600 11.5px var(--f-mono);color:#344054}.hx-c .st i{font-style:normal;background:#f2f4f7;border-radius:99px;padding:3px 9px}.hx-c .st i.a{background:#fff3ec;color:#b93815}.hx-c .go2{margin-left:auto;color:var(--o);font:800 16px var(--f-body)}
+.hx-cards.mha .hx-c{border-top:4px solid var(--o)}
+@keyframes hxin{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.hx-c{animation:none;opacity:1;transform:none}.hx-bar i{transition:none}}
+.hx-cta{display:flex;gap:12px;flex-wrap:wrap;margin:6px 0 18px}.hx-fine{font-size:12.5px;color:var(--muted);max-width:80ch;margin:0 0 60px}
+@media (max-width:1100px){.hx-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.hx-cards.gha{grid-template-columns:repeat(3,minmax(0,1fr))}.hx-grid,.hx-focus{grid-template-columns:1fr}}
+@media (max-width:700px){.hx-cards.mha,.hx-cards.gha{grid-template-columns:repeat(2,minmax(0,1fr))}.hx-m{grid-template-columns:repeat(2,minmax(0,1fr))}.hx-steps{grid-template-columns:1fr}.hx-top img.h{height:56px}.hx-top img.m{height:40px}}
+.hx-c .lw .lgw{width:84%;display:flex;justify-content:center}.hx-c .lw .lgw img{max-width:100%!important;object-fit:contain}.hx-c .lw .lgw.tile{width:auto;max-width:84%}.hx-c .lw .lgw:not(.tile){border:0;background:#fff;padding:0}.hx-c .st{flex-wrap:wrap}
+@media (max-width:700px){.hx-cards.mha .lw{height:96px}.hx-cards.gha .lw{height:76px}.hx-c .bd{padding:12px}.hx-c .nm{font-size:15px}.hx-c .go2{display:none}}
 .dkov{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:50;display:flex;align-items:center;justify-content:center;padding:16px}.dkov[hidden]{display:none}
 .dkbox{background:#fff;border-radius:14px;max-width:520px;width:100%;padding:26px;box-shadow:0 20px 60px rgba(0,0,0,.35)}.dkbox h3{margin:0 0 10px;font:800 22px var(--f-display)}
 .dkwarn{background:var(--hot-soft);border-left:4px solid var(--hot);padding:10px 14px;border-radius:6px;margin:0 0 10px}.dkfine{font-size:13.5px;color:var(--muted);margin:0 0 18px}
@@ -301,15 +343,52 @@ function tile(a){const ps=P.filter(p=>p.a===a.id),n=ps.length,tA=ps.filter(p=>p.
   return `<button class="tile" data-go="co/${a.id}" style="--seg:${SEGCOL[a.seg]}"><span class="tl">${logo(a,56)}</span><b>${esc(a.name)}</b><small>${esc(a.sub.split("·")[0].trim())}</small>${clsPill(a)}<span class="tn"><em>${n} contacts</em>${tA?`<em class="a">${tA} tier A</em>`:""}</span></button>`}
 function cover(){
   const n=P.length,tA=cnt(p=>p.t==="A");
-  const wallOf=cl=>ACCOUNTS.filter(a=>a.cls===cl).map(a=>`<button class="cw" data-go="co/${a.id}" title="${esc(a.name)}"><span class="cwl">${logo(a,52)}</span><span class="cwn">${esc(a.name.replace(/ (Automotive India|Group India \/ RNTBCI|International|Group|Corporation|Electric|Offshore)$/,""))}</span></button>`).join("");
-  return `<section class="cover2"><div class="band"><div class="bandin"><img class="cv-logo" alt="Marutee" src="${BRAND.marutee_black}"><img class="cv-hie" alt="Human Inspired Engineering" src="${BRAND.hie}"></div></div>
-  <div class="cbody"><div class="eyebrow">Marutee Design &amp; Engineering · BD call preparation</div>
-  <h1>Pitch Book <span>India</span></h1>
-  <p class="cv-sub">Who to call, what to say, and which Marutee capability to lead with: ${n} contacts across ${ACCOUNTS.length} companies in ${SEGMENTS.length} industries.</p>
-  <div class="cv-stats"><div><b>${n}</b><span>contacts</span></div><div><b>${ACCOUNTS.length}</b><span>companies</span></div><div><b>${SEGMENTS.length}</b><span>industries</span></div><div><b>${tA}</b><span>decision makers</span></div></div>
-  <div class="cv-cta"><button class="go" data-go="overview">Open the pitch book →</button><button class="go alt" data-go="all">Search all contacts</button><button class="go deck" data-deck="1">Capability deck ↗</button></div><p class="deckno">Capability deck: reference only. Not to be sent to customers.</p>
-  <div class="cwh"><span class="cls MHA">MHA</span> Must-have clients · ${ACCOUNTS.filter(a=>a.cls==="MHA").length}</div><div class="cv-wall mha">${wallOf("MHA")}</div><div class="cwh"><span class="cls GHA">GHA</span> Good to have clients · ${ACCOUNTS.filter(a=>a.cls==="GHA").length}</div><div class="cv-wall">${wallOf("GHA")}</div>
-  <p class="cv-fine">Contact data: Apollo export, Nov 2026. Pitch angles are BD recommendations. ${esc(MARUTEE)}</p></div></section>`}
+  const nm=a=>a.name.replace(/ (Automotive India|Group India \/ RNTBCI|International|Group|Corporation|Electric|Offshore)$/,"");
+  let ix=0;
+  const card=(a,sz)=>{const k=P.filter(p=>p.a===a.id),ta=k.filter(p=>p.t==="A").length;
+   return `<button class="hx-c" style="--i:${ix++}" data-go="co/${a.id}" title="${esc(a.name)}"><span class="lw">${logo(a,sz)}</span><span class="bd"><span class="nm">${esc(nm(a))}</span><span class="sb">${esc(a.sub.split("·")[0].trim())}</span><span class="st"><i>${k.length} contacts</i>${ta?`<i class="a">${ta} tier A</i>`:""}<span class="go2">→</span></span></span></button>`};
+  const M=ACCOUNTS.filter(a=>a.cls==="MHA"),G=ACCOUNTS.filter(a=>a.cls==="GHA");
+  return `<section class="cover2 hx"><div class="hx-hero"><div class="hx-in">
+   <div class="hx-top"><img class="m" alt="Marutee" src="${BRAND.marutee_black}"><img class="h" alt="Human Inspired Engineering" src="${BRAND.hie}"></div>
+   <div class="hx-grid"><div>
+    <p class="hx-eb">Pitch Book India · Our way of life</p>
+    <h1><em>500</em> engineers by March 2030.</h1>
+    <p class="hx-lead">Every dial, every message and every follow-up moves us one engineer closer. This book is how we prepare, call, log and follow up, every working day.</p>
+    <div class="cv-cta"><button class="go" data-go="overview">Open the pitch book →</button><button class="go alt" data-go="all">Search all contacts</button><button class="go deck" data-deck="1">Capability deck ↗</button></div>
+    <p class="deckno" style="margin:0">Capability deck: reference only. Not to be sent to customers.</p>
+   </div>
+   <div class="hx-pace"><h3>Our pace to 500 ${ev("M")}</h3>
+    <label class="hx-cur">Engineers today <input id="fte" type="number" min="1" max="500" value="85" aria-label="Current number of engineers"></label>
+    <div class="hx-bar"><i id="fbar"></i></div><div class="hx-bl"><span id="fl0">85</span><span>500 · Mar 2030</span></div>
+    <div class="hx-m"><div><b id="fgap">415</b><span>engineers to add</span></div><div><b id="fmo">40</b><span>months left</span></div><div><b id="fpm">10.4</b><span>per month</span></div><div><b id="fpw">2.4</b><span>per week</span></div></div>
+    <p class="hx-note">Starts from about 85 engineers today. Update the number and the pace recalculates. It is simple arithmetic, not a forecast.</p>
+   </div></div></div></div>
+  <div class="hx-sec"><h2>The daily rhythm</h2><p class="s">Five steps, every day, the same way. Nobody has to decide how to work. They open the book and follow the rhythm.</p>
+   <div class="hx-steps">
+    <button class="hx-st" data-go="overview"><span class="n">1</span><b>Plan</b><span>Pick today's accounts. Must-have clients first. Check who needs a redial.</span></button>
+    <button class="hx-st" data-go="all"><span class="n">2</span><b>Prepare</b><span>Read the contact card, open the Pitch pop-up, check LinkedIn. Two minutes, no more.</span></button>
+    <button class="hx-st" data-go="overview"><span class="n">3</span><b>Dial</b><span>Call. No answer is still a dial: send a WhatsApp, a message or a LinkedIn note.</span></button>
+    <button class="hx-st" data-go="all"><span class="n">4</span><b>Log</b><span>Click the name. One form per dial: result, outreach done, next action and owner.</span></button>
+    <button class="hx-st" data-go="overview"><span class="n">5</span><b>Follow up</b><span>Close the day on the open actions. Do what is due before you start new calls.</span></button>
+   </div>
+   <div class="hx-rule">No dial without a log. No conversation without a next step.</div></div>
+  <div class="hx-sec"><div class="hx-focus"><div><h2>Your one focus</h2><p class="hx-big">Turn conversations into <em>engineers placed</em> at our clients.</p><p>Everything on this page serves one measure: engineers added toward 500. A call is good when it ends with a dated next step towards a deputation or a scoped project.</p></div>
+   <div><ol class="hx-do"><li><span><b>Must-have clients first.</b> Finish the MHA accounts before you spend time on the rest.</span></li><li><span><b>Reach the person who owns capacity.</b> Tier A and engineering leaders. Use HR and procurement to find them, not to stop there.</span></li><li><span><b>Lead with engineers and one pilot.</b> Deputed engineers or one scoped package. Not a long presentation.</span></li><li><span><b>Log every dial</b>, answered or not, with the LinkedIn status and any message sent.</span></li><li><span><b>End on a dated next action</b> with an owner, every time.</span></li></ol>
+   <p class="hx-dont"><b>Never:</b> offer software delivery (we supply engineers for software teams, nothing more) · send a library deck to a customer · name an existing client · quote a reference scope before delivery confirms it.</p></div></div></div>
+  <div class="hx-sec"><div class="hx-lab"><span class="cls MHA">MHA</span><h3>Must-have clients</h3><small>${M.length} companies · start here</small></div>
+   <div class="hx-cards mha">${M.map(a=>card(a,64)).join("")}</div>
+   <div class="hx-lab"><span class="cls GHA">GHA</span><h3>Good to have clients</h3><small>${G.length} companies · after the must-haves</small></div>
+   <div class="hx-cards gha">${G.map(a=>card(a,48)).join("")}</div>
+   <div class="hx-cta"><button class="go" data-go="overview">Open the pitch book →</button><button class="go alt" data-go="all">Search all ${n} contacts</button></div>
+   <p class="hx-fine">${n} contacts, ${tA} decision makers, ${ACCOUNTS.length} companies, ${SEGMENTS.length} industries. Contact data: Apollo export, Nov 2026. Pitch angles are BD recommendations. ${esc(MARUTEE)}</p></div></section>`}
+function initPace(){
+  const inp=$('fte');if(!inp)return;let v=85;try{const s=localStorage.getItem('fte2');if(s)v=Math.max(1,Math.min(500,+s||85))}catch(e){}
+  inp.value=v;
+  const calc=()=>{let c=Math.max(1,Math.min(500,+inp.value||85));try{localStorage.setItem('fte2',c)}catch(e){}
+   const d=new Date(),mo=Math.max(1,(2030-d.getFullYear())*12+(2-d.getMonth())),gap=500-c,pm=gap/mo;
+   $('fl0').textContent=c;$('fbar').style.width=Math.max(2,Math.round(c/5))+"%";$('fgap').textContent=gap;$('fmo').textContent=mo;
+   $('fpm').textContent=(Math.round(pm*10)/10).toString();$('fpw').textContent=(Math.round(pm/4.35*10)/10).toString()};
+  inp.addEventListener('input',calc);calc()}
 function overview(){
   const tA=cnt(p=>p.t==="A"),chk=cnt(p=>p.t==="X"),noem=cnt(p=>!p.em);
   return `<div class="ovgrid"><div class="stat"><b>${P.length}</b><span>contacts</span></div><div class="stat"><b>${ACCOUNTS.length}</b><span>companies in ${SEGMENTS.length} industries</span></div><div class="stat"><b>${tA}</b><span>tier-A decision makers</span></div><div class="stat"><b>${chk}</b><span>to verify before calling · ${noem} without email</span></div></div>
@@ -328,6 +407,7 @@ function render(){const bm=document.getElementById('bm');if(bm&&!bm.src)bm.src=B
   subEl.innerHTML="";
   view.innerHTML=t==="cover"?cover():t==="overview"?overview():t==="ind"?detail("ind",k):t==="co"?detail("co",k):t==="all"?allView():capsView();
   if((t==="ind"||t==="co")&&k){const el=$('sec-'+k);if(el){el.scrollIntoView();}}
+  if(t==="cover")initPace();
   if(t==="all"){fillAll();['q','fseg','ftier','fcls'].forEach(i=>$(i).addEventListener('input',fillAll))}
 }
 document.addEventListener('click',e=>{
